@@ -1,10 +1,8 @@
 import React from 'react'
-import Switch from './Switch'
 import styled from 'styled-components'
+import { Switch } from './components'
 
-
-export default () => 
-(
+export default () => (
   <Container>
     <Switch />
   </Container>

@@ -23,8 +23,6 @@ const Slider = styled.span`
   border-radius: 15px;
   transition: 0.4s;
 
-  box-shadow: ${({ toggle }) => !toggle && '0px 0px 1px rgba(40, 41, 61, 0.04), 0px 2px 4px rgba(96, 97, 112, 0.16)'} ;
-
   &:before {
     content: '';
 
@@ -37,7 +35,6 @@ const Slider = styled.span`
     border-radius: 100%;
 
     background-color: ${({ toggle, color }) => toggle ? 'white' : color};
-    box-shadow: ${({ toggle }) => toggle && '0px 0px 1px rgba(40, 41, 61, 0.04), 0px 2px 4px rgba(96, 97, 112, 0.16)'} ;
 
     transition: 0.4s;
   }
